@@ -28,3 +28,11 @@ Ideas
 =====
 - Wifi network search and connect.
 - Add extra permissions to the app to (un)install apps, stop processes etc.
+
+
+Building
+========
+
+- Install the Android SDK
+- ./gradlew assembleRelease
+- Retrieve apk from app/build/outputs/apk/release/app-release-unsigned.apk
